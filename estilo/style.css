@@ -1,10 +1,11 @@
 *
 body{
+    background-color: rgb(127, 255, 180);    
 
 }
 
 header{
-    background-color: rgb(11, 155, 6);
+    background-color: rgb(15, 128, 34);
 
     background-image: linear-gradient(to bottom,var (--cor3), var (--cor3));
     min-height: 150px;
@@ -36,8 +37,31 @@ header > p{
 }
 
 nav {
-    background-color: rgb(141, 209, 5);
-
+    background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0,0,0,0.192);
+}
+
+nav > a {
+    color: rgb(0, 14, 2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgb(141, 209, 5);
+}
+article > h1{
+    color: rgb(212, 22, 22);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.267);
+}
+
+article > p{
+    color: red;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.basico {
+    color: black;
 }
