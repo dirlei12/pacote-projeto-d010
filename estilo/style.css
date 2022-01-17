@@ -1,10 +1,13 @@
-*
+* {
+    height: fit-content;
+}
 body{
     background-attachment: scroll;
-    background-color: tomato;
+    background-color: rgba(53, 226, 125, 0.568);
 }
 header{
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     height: 100%;
     background-image: linear-gradient(to bottom,rgb(15, 128, 34),rgb(25, 77, 34));
     min-height: 150px;
@@ -37,7 +40,7 @@ header > p{
 }
 
 nav {
-    text-align: center;
+    text-align: left;
     background-color: rgb(25, 77, 34);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(250, 250, 250, 0.192);
@@ -45,14 +48,19 @@ nav {
 
 nav > a {
     color: rgb(255, 255, 255);
-    text-align: center;
+    
     text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.315);
     padding: 10px;
+    
+    margin: auto;
     box-shadow: 0px 7px 7px rgb(25, 77, 34);
 }
 main {
     background-color: azure;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     max-width: 600px;
+    padding-top: 1px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -63,8 +71,20 @@ main {
 article > h1{
     
     color: rgb(25, 77, 34);
+    text-align: left;
     font-family: var(--fonte-destaque);
     font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.267);
+}
+article > h2{
+    
+    color: rgb(25, 77, 34);
+    background-color: rgba(53, 226, 125, 0.568);
+    text-align: left;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.267);
@@ -72,7 +92,7 @@ article > h1{
 
 article > p{
     
-    color: rgb(25, 77, 34);
+    color: rgb(0, 0, 0);
     text-align: justify;
     text-indent: 30px;
 }
@@ -80,3 +100,4 @@ article > p{
 .basico {
     color: black;
 }
+
