@@ -2,12 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Staatliches&display=swap');
 
-@font-face {
-    font-family: 'idroid';
-    src: url('fontes/IDroid Bold Italic.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 body{
     background-attachment: scroll;
@@ -29,7 +24,7 @@ header{
 header > h1{
     
     color: white;
-    font-family: 'idroid';
+    
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
